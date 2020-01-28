@@ -26,12 +26,13 @@ Datasets provided by the Million Song Dataset: http://millionsongdataset.com/
 ## Song Dimension Tables
 
 **Songs**
-|---|---|---|
-| song_id   | TEXT PRIMARY KEY |      |
-| title     | TEXT NOT NULL    |      |
-| artist_id | TEXT NOT NULL    |      |
-| year      | INT              |      |
-| duration  | FLOAT NOT NULL   |      |
+**Column**|**Datatype**|**Note**
+:-----:|:-----:|:-----:
+song\_id|TEXT PRIMARY KEY| 
+title|TEXT NOT NULL| 
+artist\_id|TEXT NOT NULL| 
+year|INT| 
+duration|FLOAT NOT NULL| 
 
 **Artists**
 |---|---|---|
