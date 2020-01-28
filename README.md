@@ -23,17 +23,10 @@ Datasets provided by the Million Song Dataset: http://millionsongdataset.com/
   The Million Song Dataset. In Proceedings of the 12th International Society
   for Music Information Retrieval Conference (ISMIR 2011), 2011.*
 
-Song data structure (JSON):
-
-```
-{"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}
-```
-
 ## Song Dimension Tables
 
 **Songs**
-| Column    | Datatype         | Note |
-|--- |---|---|
+|---|---|---|
 | song_id   | TEXT PRIMARY KEY |      |
 | title     | TEXT NOT NULL    |      |
 | artist_id | TEXT NOT NULL    |      |
@@ -41,7 +34,6 @@ Song data structure (JSON):
 | duration  | FLOAT NOT NULL   |      |
 
 **Artists**
-| Column    | Datatype         | Note                                     |
 |---|---|---|
 | artist_id | TEXT PRIMARY KEY |                                          |
 | name      | TEXT NOT NULL    |                                          |
@@ -50,9 +42,8 @@ Song data structure (JSON):
 | longitude | FLOAT            | Consider PostGIS for future enhancements |
 
 
-### Log Datasets
+## Log Datasets
 Datasets generated via Eventsim: https://github.com/Interana/eventsim
 
 
-### Log datasets
 
