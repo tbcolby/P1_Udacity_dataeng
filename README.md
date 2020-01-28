@@ -26,6 +26,14 @@ Datasets provided by the Million Song Dataset: http://millionsongdataset.com/
 ## Song Dimension Tables
 
 **Songs**
+| **Column** | **Datatype** |
+| --- | --- |
+| song_id | TEXT PRIMARY KEY |
+| title | TEXT NOT NULL |
+| artist_id | TEXT NOT NULL |
+| YEAR | INT |
+| duration | FLOAT NOT NULL |
+
 **Column**|**Datatype**|**Note**
 :-----:|:-----:|:-----:
 song\_id|TEXT PRIMARY KEY| 
@@ -34,12 +42,7 @@ artist\_id|TEXT NOT NULL|
 year|INT| 
 duration|FLOAT NOT NULL| 
 
-## TEST TABLE
 
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
 
 **Artists**
 |---|---|---|
@@ -54,4 +57,16 @@ duration|FLOAT NOT NULL|
 Datasets generated via Eventsim: https://github.com/Interana/eventsim
 
 
+
+
+
+
+
+
+## SAMPLE TABLE
+
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
 
