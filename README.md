@@ -35,15 +35,16 @@ artist\_id|TEXT NOT NULL|
 year|INT| 
 duration|FLOAT NOT NULL| 
 
-
-
 **Artists**
-|---|---|---|
-| artist_id | TEXT PRIMARY KEY |                                          |
-| name      | TEXT NOT NULL    |                                          |
-| location  | TEXT             |                                          |
-| latitude  | FLOAT            | Consider PostGIS for future enhancements |
-| longitude | FLOAT            | Consider PostGIS for future enhancements |
+
+**Column**|**Datatype**|**Note**
+:-----:|:-----:|:-----:
+artist_id|TEXT PRIMARY KEY| 
+name|TEXT NOT NULL| 
+location|TEXT| 
+latitude|FLOAT| 
+longitude|FLOAT NOT NULL| 
+
 
 
 ## Log Datasets
