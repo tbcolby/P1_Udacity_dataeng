@@ -51,7 +51,7 @@ longitude|FLOAT NOT NULL|
 Datasets generated via Eventsim: https://github.com/Interana/eventsim
 
 
-
+#  Continue with documenting structure  
 
 
 
